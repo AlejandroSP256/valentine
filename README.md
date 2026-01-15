@@ -1,36 +1,61 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+    
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
+    
+    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
+   
+   * {
+       margin: 0;
+       padding: 0;
+       box-sizing: border-box;
+       font-size: 16px;
+    }
 
-## Getting Started
+   :root {
+       --color-primary: #FF6B6B;
+       --color-secondary: #FF6DE0;
+       --color-tertiary: #CDB4DB;
+       --color-text: #2F2F2F;
+       --color-background: #FFF7F9;
+    }
+</style>
+<h1>Pagina para el dia de San Valentin</h1>
 
-First, run the development server:
+<h2>Colores a utilizar: </h2>
+<ul>
+<li style="color: #FF6B6B">Rojo coral: #FF6B6B</li>
+<li style="color: #FF6DE0">Rosa suave: #FF6DE0</li>
+<li style="color: #CDB4DB">Lavanda: #CDB4DB</li>
+<li style="color: #FFF7F9">Fondo claro: #FFF7F9</li>
+<li style="color: #2F2F2F">Texto: #2F2F2F</li>
+</ul>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+<p style="background: linear-gradient(135deg, #FF6B6B, #CDB4DB); border-radius: 3px; padding: 3px; text-align: center; color: var(--color-text);">gradiente a usar: linear-gradient(135deg, #FF6B6B, #CDB4DB)</p>
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+<h2>Tipografia</h2>
+<p style="font-family: Poppins">Poppins</p>
+<p style="font-family: 'Inter'">Inter</p>
+<p style="font-family: 'Nunito'">Nunito</p>
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<h2> Estructura </h2>
+<section style="background: var(--color-background); color: var(--color-text); padding: 10px; border-radius: 10px">
+    
+Header:
+Logo / San Valentin 💖
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Hero:
+Mensaje general e inclusivo
 
-## Learn More
+Section: Que celebramos:
+Amor, amistad y compañía
 
-To learn more about Next.js, take a look at the following resources:
+Section: Frases
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Section: Imagenes
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Footer:
+Mensaje de cierre
+hecho con ❤ por Alejandro
+    
+</section>
