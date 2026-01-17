@@ -30,7 +30,7 @@ export default function ScrollReveal({
             viewport={{ once, amount: 0.2 }}
             transition={{
                 duration: 0.6,
-                ease: 'easeOut',
+                ease: 'easeInOut',
                 delay
             }}
         >

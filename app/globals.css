@@ -7,7 +7,7 @@
 
 @layer utilities {
   .gr-valentine-rose {
-    @apply bg-linear-45 from-pink-500 via-rose-500 to-red-400;
+    @apply bg-linear-45 from-pink-400 via-rose-600 to-red-400;
   }
 
   .gr-valentine-soft {
@@ -16,6 +16,14 @@
 
   .gr-valentine-passion {
     @apply bg-linear-45 from-red-600 via-rose-700 to-pink-600;
+  }
+
+  .gr-valentine-blue {
+    @apply bg-linear-45 from-secondary via-tertiary to-peach;
+  }
+
+  .gr-valentine-hero {
+    @apply bg-linear-to-br from-primary/70 to-secondary/70; 
   }
 }
 
@@ -30,6 +38,7 @@
   --color-secondary: #FF6DE0;
   --color-tertiary: #CDB4DB;
   --color-white-choco: #F0E6D2;
+  --color-peach: #FFE5B4;
   --color-background: var(--background);
   --color-foreground: var(--foreground);
   --font-sans: var(--font-geist-sans);

@@ -13,17 +13,17 @@ const items = [
     {
         icon: <Sparkles size={30} />,
         description: 'Cada vínculo genuino merece ser celebrado.',
-        className: 'gr-valentine-soft'
+        className: 'gr-valentine-soft mx-4'
     },
     {
         icon: <PartyPopper size={30} />,
         description: 'Las mejores cosas suceden de manera inesperada, y así llegaste tú a mi vida.',
-        className: 'gr-valentine-rose'
+        className: 'gr-valentine-rose mx-4'
     },
     {
         icon: <Users size={30} />,
         description: 'No hay regalo más valioso que una amistad sincera como la nuestra.',
-        className: 'gr-valentine-rose'
+        className: 'gr-valentine-blue mx-4'
     },
 ]
 
@@ -34,7 +34,7 @@ export default function Quotes() {
                 <section className="py-20">
                     <div className="max-w-6xl mx-auto px-6 text-center">
                         <h3 className="text-3xl font-semibold mb-12 font-poppins">
-                            Frases de amor
+                            Secci&oacute;n de frases
                         </h3>
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
