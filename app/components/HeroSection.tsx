@@ -25,7 +25,7 @@ export default function Hero() {
 
             <section className='relative h-screen max-md:hidden flex items-center justify-center text-center overflow-hidden'>
                 <Image
-                    src={'/hero.webp'}
+                    src={'/van.jpg'}
                     alt='San Valentín'
                     fill
                     priority

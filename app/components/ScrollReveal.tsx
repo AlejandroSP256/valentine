@@ -16,8 +16,8 @@ export default function ScrollReveal({
     children,
     delay = 0,
     once = true,
-    initial = { opacity: 0, y: 40 },
-    whileInView = { opacity: 1, y: 0 },
+    initial = { opacity: 0, y: 40, scale: 0.65 },
+    whileInView = { opacity: 1, y: 0, scale: 1 },
     animate,
     whileHover
 }: Props) {

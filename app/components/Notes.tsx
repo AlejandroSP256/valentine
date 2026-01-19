@@ -9,8 +9,10 @@ type Item = {
 
 export default function Notes({ item }: { item: Item }) {
     return (
-        <div
-            className={`sm:w-2xs lg:w-3xs lg:h-3xs relative flex justify-center items-center rounded-2xl p-6 shadow-md hover:shadow-lg hover:scale-110 transition ${item.className}`}
+        <motion.div
+            className={`sm:w-2xs h-32 lg:w-3xs relative flex justify-center items-center rounded-2xl p-6 shadow-md ${item.className}`}
+            whileHover={{ scale: 1.1 }}
+            transition={{ duration: 0.6 }}
         >
             <motion.div
                 className="absolute top-1 left-1"
@@ -20,6 +22,6 @@ export default function Notes({ item }: { item: Item }) {
                 {item.icon}
             </motion.div>
             <p className="text-sm text-center text-white font-poppins px-2">{item.description}</p>
-        </div>
+        </motion.div>
     )
 }
