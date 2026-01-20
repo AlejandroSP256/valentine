@@ -6,6 +6,7 @@ import Header from "./components/Header";
 import Hero from './components/HeroSection';
 import Quotes from "./components/Quotes";
 import IntroScreen from './components/IntroScreen';
+import Footer from './components/Footer';
 
 export default function Home() {
   const [showIntro, setShowIntro] = useState<boolean>(true);
@@ -28,6 +29,7 @@ export default function Home() {
               <Hero />
               <Quotes />
             </main>
+            <Footer />
           </motion.div>
         </>
       )}

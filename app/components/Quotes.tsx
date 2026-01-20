@@ -6,17 +6,17 @@ import { Heart, Sparkles, Users, PartyPopper } from 'lucide-react'
 
 const items = [
     {
-        icon: <Heart size={30} />,
+        icon: <Heart size={30} color="red" />,
         description: 'Mi corazón es perfecto por que tú estas dentro de él.',
         className: 'gr-valentine-passion mx-4'
     },
     {
-        icon: <Sparkles size={30} />,
+        icon: <Sparkles size={30} color="yellow" />,
         description: 'Cada vínculo genuino merece ser celebrado.',
         className: 'gr-valentine-soft mx-4'
     },
     {
-        icon: <PartyPopper size={30} />,
+        icon: <PartyPopper size={30} className="text-pink-400" />,
         description: 'Las mejores cosas suceden de manera inesperada, y así llegaste tú a mi vida.',
         className: 'gr-valentine-rose mx-4'
     },
