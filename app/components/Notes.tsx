@@ -1,11 +1,6 @@
 "use client";
 import { motion } from "motion/react";
-
-type Item = {
-    icon: React.ReactNode;
-    description: string;
-    className?: string;
-}
+import type { Item } from "@/utils/interface";
 
 export default function Notes({ item }: { item: Item }) {
     return (

@@ -7,6 +7,7 @@ import Hero from './components/HeroSection';
 import Quotes from "./components/Quotes";
 import IntroScreen from './components/IntroScreen';
 import Footer from './components/Footer';
+import BackgroundMusic from './components/BackgroundMusic';
 
 export default function Home() {
   const [showIntro, setShowIntro] = useState<boolean>(true);
@@ -19,6 +20,7 @@ export default function Home() {
 
       {!showIntro && (
         <>
+          <BackgroundMusic />
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
