@@ -4,6 +4,8 @@ import ScrollReveal from "./ScrollReveal"
 import Notes from "./Notes"
 import { Heart, Sparkles, Users, PartyPopper, Smile, UserRound, Flower } from 'lucide-react'
 import type { Item } from "@/utils/interface";
+import Modal from "./Modal";
+import { useUI } from "@/context/UIContext";
 
 const items: Item[] = [
     {
@@ -49,6 +51,8 @@ const items: Item[] = [
 ]
 
 export default function Quotes() {
+    const { isOpen, setIsOpen } = useUI();
+
     return (
         <>
             <ScrollReveal>
@@ -61,13 +65,15 @@ export default function Quotes() {
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 items-center">
                             {items.map((item, i) => (
                                 <ScrollReveal key={i} delay={i * 0.2} once={false}>
-                                    <Notes item={item}/>
+                                    <Notes {...item} onClick={() => setIsOpen(item)}/>
                                 </ScrollReveal>
                             ))}
                         </div>
                     </div>
                 </section>
-            </ScrollReveal>
+            </ScrollReveal>     
+
+            {isOpen && <Modal {...isOpen} onClick={() => setIsOpen(null)} />}
         </>
     )
 }
