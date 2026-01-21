@@ -1,61 +1,42 @@
-<style>
-    @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
-    
-    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap');
-    
-    @import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;500;600;700&display=swap');
-   
-   * {
-       margin: 0;
-       padding: 0;
-       box-sizing: border-box;
-       font-size: 16px;
-    }
+# Valentine 💖
 
-   :root {
-       --color-primary: #FF6B6B;
-       --color-secondary: #FF6DE0;
-       --color-tertiary: #CDB4DB;
-       --color-text: #2F2F2F;
-       --color-background: #FFF7F9;
-    }
-</style>
-<h1>Pagina para el dia de San Valentin</h1>
+Hola, soy Alejandro, un desarrollador web.  
+Este es mi proyecto **Valentine**, una pagina web creada con cari&ntilde;o para celebrar el **D&iacute;a de San Valent&iacute;a**.   
+La idea principal es transmitir buenas vibras, amor y un dise&ntilde;o agradable para alguien especial o simplemente disfrutar.  
+Esto es un proyecto personal, con la intenci&oacute;n de aprender y crear algo nuevo y divertido, as&iacute; que espero que te guste y lo puedas usar como inspiraci&oacute;n.
 
-<h2>Colores a utilizar: </h2>
-<ul>
-<li style="color: #FF6B6B">Rojo coral: #FF6B6B</li>
-<li style="color: #FF6DE0">Rosa suave: #FF6DE0</li>
-<li style="color: #CDB4DB">Lavanda: #CDB4DB</li>
-<li style="color: #FFF7F9">Fondo claro: #FFF7F9</li>
-<li style="color: #2F2F2F">Texto: #2F2F2F</li>
-</ul>
+## 🌸 ¿De qu&eacute; trata este proyecto?
 
-<p style="background: linear-gradient(135deg, #FF6B6B, #CDB4DB); border-radius: 3px; padding: 3px; text-align: center; color: var(--color-text);">gradiente a usar: linear-gradient(135deg, #FF6B6B, #CDB4DB)</p>
+Es una p&aacute;gina web sencilla para celebrar el 14 de Febrero.  
+Incluye un dise&ntilde;o agradable, colores suaves y algunos mensajes positivos para dirigirte a tus amigos, pareja o familia.  
 
-<h2>Tipografia</h2>
-<p style="font-family: Poppins">Poppins</p>
-<p style="font-family: 'Inter'">Inter</p>
-<p style="font-family: 'Nunito'">Nunito</p>
+## 🛠 Tecnolog&iacute;as usadas
+- [Next.js](https://nextjs.org) / [React](https://reactjs.org).
+- [Tailwind CSS](https://tailwindcss.com).
+- [TypeScript](https://typescriptlang.org).
 
-<h2> Estructura </h2>
-<section style="background: var(--color-background); color: var(--color-text); padding: 10px; border-radius: 10px">
-    
-Header:
-Logo / San Valentin 💖
+## 🚀 Como ejecutar el proyecto
 
-Hero:
-Mensaje general e inclusivo
+1. Clona el repositorio.
+   ```bash
+   git clone https://github.com/alejandroSP256/valentine.git
+   ```
+2. Entra al directorio del proyecto.
+   ```bash
+   cd valentine
+   ```
+3. Instala las dependencias.
+   ```bash
+   npm install
+   ```
+4. Ejecuta el proyecto.
+   ```bash
+   npm run dev
+   ```
+5. Abre el navegador en [http://localhost:3000](http://localhost:3000)
 
-Section: Que celebramos:
-Amor, amistad y compañía
+## Agradecimiento
+Gracias por visitar el repositorio  
+Si te gusto el proyecto, !puedes darle una estrella ⭐ a este repositorio.
 
-Section: Frases
-
-Section: Imagenes
-
-Footer:
-Mensaje de cierre
-hecho con ❤ por Alejandro
-    
-</section>
+Nos vemos en un proximo proyecto 👀
