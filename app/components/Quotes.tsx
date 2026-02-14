@@ -64,7 +64,7 @@ export default function Quotes() {
 
                         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6 items-center">
                             {items.map((item, i) => (
-                                <ScrollReveal key={i} delay={i * 0.2} once={false}>
+                                <ScrollReveal key={i} delay={i * 0.2} once={true}>
                                     <Notes {...item} onClick={() => setIsOpen(item)}/>
                                 </ScrollReveal>
                             ))}
